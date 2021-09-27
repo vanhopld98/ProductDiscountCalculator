@@ -18,7 +18,7 @@ To change this template use File | Settings | File Templates.
             border: 1px #CCC solid;
         }
 
-        .login input {
+        .convert input {
             padding: 5px;
             margin: 5px
         }

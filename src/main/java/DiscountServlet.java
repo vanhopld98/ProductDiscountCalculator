@@ -21,8 +21,8 @@ public class DiscountServlet extends HttpServlet {
 
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
-        writer.println("<h1>Discount Amount:" + DiscountAmount + "</h1>");
-        writer.println("<h1>Discount Price:" + DiscountPrice + "</h1>");
+        writer.println("<h1>Discount Amount: " + DiscountAmount + "</h1>");
+        writer.println("<h1>Discount Price: " + DiscountPrice + "</h1>");
         writer.println("</html>");
     }
 }
